@@ -16,5 +16,11 @@ namespace WindowsFormsApplication1_ejemplogit
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hello, FIME");
+
+        }
     }
 }
